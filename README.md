@@ -1,2 +1,2 @@
 # date-to-inches-mario
-Convierte `12-Jan` a pulgadas (mes→pies, día→pulgadas): total = feet*12 + inches.
+Convert `12-Jan` to inches (month→ft, day→in): total = feet*12 + inches.
