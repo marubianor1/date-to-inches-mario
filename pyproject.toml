@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "date-to-inches-mario"
+version = "0.1.0"
+description = "Convert 'day-month' strings (e.g., '12-Jan') into inches; month->feet, day->inches."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [{ name = "Mario Rubiano", email = "example@example.com" }]
+dependencies = ["pandas", "numpy"]
+keywords = ["preprocessing", "pandas", "numpy"]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/marubianor1/date-to-inches-mario"
+Issues = "https://github.com/marubianor1/date-to-inches-mario/issues"
